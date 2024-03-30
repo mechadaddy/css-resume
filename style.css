@@ -1,0 +1,70 @@
+html {
+    display: flex;
+
+}
+
+h1 {
+    text-align: left;
+    font-family: Montserrat;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style:italic;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style:italic;
+}
+
+.card {
+    width: 50%;
+    display: inline;
+    float: left;
+}
+
+ul > li {
+    font-weight:normal;
+}
+
+.smith {
+    color:goldenrod;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style:normal;
+}
+
+.header {
+    display: block;
+    margin-bottom: 50px;
+}
+.header img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 100px
+}
+
+.footer {
+    display: block;
+    text-align: center;
+}
+
+@media (max-width: 680px) {
+    .card {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media (max-width: 300px) {
+    .photos img {
+        width: 100%;
+        display: block;
+    }
+}
